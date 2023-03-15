@@ -22,7 +22,7 @@
 ;                       Add registers to watch, e.g, WREG, 0xF80, PORTA
 ; -----------------------------------------------------------------------------
 
-        title 		"Our second assembler program"
+		title 	"Our second assembler program"
 		list   		P=PIC18F45K22 ; processor type
 		#include	"p18f45K22.inc"
 ;
