@@ -44,8 +44,8 @@
 start 	
 	movlw 		0xFF 		; move 0FH to W register
 	movwf 		PORTA		; move W to PORTA
-	;movlw 		0x00 		; move 00H to W register
-	;movwf 		PORTA		; move W to PORTA - note use of PORTA vs address
+	movlw 		0x00 		; move 00H to W register
+	movwf 		PORTA		; move W to PORTA - note use of PORTA vs address
 	goto 		start 		; do this loop forever
 	end			
 
